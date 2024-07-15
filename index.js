@@ -5,7 +5,7 @@ module.exports = {
     const minio = new minioClient.Client({
       endPoint: providerOptions.endpoint,
       port: parseInt(providerOptions.port),
-      useSSL: false,
+      useSSL: providerOptions.useSSL == "true",
       accessKey: providerOptions.accessKey,
       secretKey: providerOptions.secretKey,
     });
