@@ -1,6 +1,6 @@
 {
   "name": "provider-upload-minio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strapi custom provider for Minio",
   "license": "Apache-2.0",
   "author": "l-bianchi <illorenzobianchi@proton.me>",
